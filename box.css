@@ -1,0 +1,39 @@
+.b0 {
+  background-color: #34495e;
+}
+.b1 {
+  background-color: #1abc9c;
+}
+.b2 {
+  background-color: #3498db;
+}
+.b3 {
+  background-color: #9b59b6;
+}
+.b4 {
+  background-color: #f1c40f;
+}
+.b5 {
+  background-color: #e67e22;
+}
+.b6 {
+  background-color: #e74c3c;
+}
+.b7 {
+  background-color: #bdc3c7;
+}
+.b8 {
+  background-color: #2ecc71;
+}
+.b9 {
+  background-color: #16a085;
+}
+[class^=b]{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 3rem;
+color: whitesmoke;
+font-weight: 400;
+  text-align: center;
+  margin: 1px;
+  /* text-justify: inherit; */
+}

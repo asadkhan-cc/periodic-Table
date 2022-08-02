@@ -1,0 +1,95 @@
+.blank {
+  background-color: none;
+  /* display: none; */
+}
+table {
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+}
+/* tbody{
+
+} */
+.reactive-nonmetals {
+  background-color: #0060f0;
+}
+.alkali-metals {
+  background-color: #00758c;
+}
+.alkali-earth-metals {
+  background-color: #d60024;
+}
+.transitionmetals {
+  background-color: #6232ec;
+}
+
+.post-transitionmetals {
+  background-color: #002c00;
+}
+.metaloids {
+  background-color: #945700;
+}
+.nobelgases {
+  background-color: #cd1d5e;
+}
+.lanthanides {
+  background-color: #003355;
+}
+.acitinides {
+  background-color: #c73200;
+}
+.unknown {
+  background-color: #3f374f;
+}
+
+tr {
+  /* display: flex;
+    border-top: 3px solid white;
+    border-left: 30px solid white;
+    padding: 3px;
+    margin: 3px; */
+  /* flex-direction: column; */
+}
+td {
+  width: 50px;
+  height: 50px;
+  color: whitesmoke;
+  text-align: center;
+}
+* {
+  text-transform: capitalize;
+}
+tr:first-child {
+  background-color: yellow;
+  font-size: 2rem;
+}
+tr:first-child :first-child {
+  color: #3f374f;
+}
+tr:first-child :first-child:hover {
+  color: #3f374f;
+  transform: none;
+}
+
+td:hover {
+  /* width: 75px;
+    height: 75px;
+    color: silver;
+    font-size: 2rem; */
+  /* transition-delay: 500ms; */
+  transform: scale3d(1.6, 1.6, 1.6);
+  /* }tr[class=title],td[class=blank]:hover{
+    width: 50px;
+    height: 50px;
+    color: whitesmoke;
+    text-align: center;
+    /* transform: none; */
+}
+body {
+  /* /* display: flex; */
+
+  /* justify-items: center; */
+  /* align-self: center; */
+  /* align-items: center; */
+  
+}

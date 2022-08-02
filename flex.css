@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+[class^="b"] {
+  /* width: 32%; */
+  width: 300px;
+  height: 30vh;
+}
