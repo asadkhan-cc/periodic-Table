@@ -1,22 +1,65 @@
 .container {
   border: 10px solid goldenrod;
   display: flex;
-  height: 90vh;
   /* flex-direction: column; */
-  align-content:space-around ;
-
-  justify-content:center ;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* height: 90vh; */
 
 }
 [class^="b"] {
-width: 200px;
+    flex-grow: 0;
+    /* flex-basis: 200px; */
 }
-/* .b3{
-    /* Flex order:
-It gives order to flex linke an array index 
-By default order starts from 0 */
-/* order: 1; */
 .b0{
-    order: 1;
+flex-grow: 1;
 }
+.b1{
+    flex-grow: 2;
+}
+.b2{
+    flex-grow: 3;
+}
+.b3{
+    flex-grow: 4;
+}
+.b4{
+    flex-grow: 5;
+}
+.b5{
+    flex-grow: 6;
+}
+.b7{
+    flex-grow: 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.b3{
+    now adding tripple space to item b3 
+    flex: 2;
+}
+.b7{
+    now adding tripple space to item b3 
+    flex: 3;
+}
+.b5{
+    now adding tripple space to item b3 
+    flex: .6;
+} */
