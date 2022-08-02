@@ -1,18 +1,22 @@
 .container {
   border: 10px solid goldenrod;
   display: flex;
-  justify-content: space-between;
-  min-height: 90vh;
-  flex-direction: column;
-  align-items: center baseline;
+  height: 90vh;
+  /* flex-direction: column; */
+  align-content:space-around ;
 
+  justify-content:center ;
+flex-wrap: wrap;
 
 }
 [class^="b"] {
-
+width: 200px;
 }
 /* .b3{
     /* Flex order:
 It gives order to flex linke an array index 
 By default order starts from 0 */
 /* order: 1; */
+.b0{
+    order: 1;
+}
