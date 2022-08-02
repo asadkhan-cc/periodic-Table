@@ -1,21 +1,17 @@
 .container {
-    border: 1px solid goldenrod;
+  border: 10px solid goldenrod;
   display: flex;
-  /* justify-content: center; */
-  /* justify-content: flex-end; */
-/* justify-content: space-between; */
-/* justify-content: space-evenly; */
-justify-content: space-around;
-
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 90vh;
 }
 [class^="b"] {
-    /* flex: auto; */
+  /* flex: auto; */
+  font-size: 1rem;
 
 }
 /* .b3{
     /* Flex order:
 It gives order to flex linke an array index 
 By default order starts from 0 */
- /* order: 1; */
-
-
+/* order: 1; */
