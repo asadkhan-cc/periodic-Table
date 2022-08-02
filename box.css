@@ -8,6 +8,7 @@
   background-color: #3498db;
 }
 .b3 {
+  font-size: 1rem!important;
   background-color: #9b59b6;
 }
 .b4 {
@@ -17,9 +18,11 @@
   background-color: #e67e22;
 }
 .b6 {
+  font-size: 4rem !important;
   background-color: #e74c3c;
 }
 .b7 {
+  font-size: 8rem !important;
   background-color: #bdc3c7;
 }
 .b8 {
