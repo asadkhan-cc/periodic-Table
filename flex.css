@@ -1,18 +1,78 @@
+:root {
+  --numwid: 76vw;
+  --numwiditem: calc(70vw / 3);
+}
+
 .container {
-  border: 10px solid goldenrod;
+  border: 5px solid goldenrod;
   display: flex;
-  justify-content: space-between;
-  min-height: 90vh;
-  flex-direction: column;
-  align-items: center baseline;
-
-
+  justify-content: center;
+  width: var(--numwid);
+  flex-direction: row;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 1px;
+  /* flex-basis: var(--numwiditem); */
 }
 [class^="b"] {
+  /* width:  */
+  width: 24vw;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: 14vh;
+}
 
+.b0 {
+  /* flex-basis: 0vw; */
+  order: 1;
+  flex-grow: 0;
+  align-self: center;
+  justify-self: center;
 }
 /* .b3{
     /* Flex order:
 It gives order to flex linke an array index 
 By default order starts from 0 */
 /* order: 1; */
+
+.clear {
+  /* min-width:25vw */
+  /* order: 1; */
+  min-height: 14vh;
+
+  flex-grow: 1;
+  align-self: center;
+  justify-self: center;
+}
+.kp1 {
+  /* border: 10px solid red; */
+  display: flex;
+  justify-content: ;
+  width: min-content;
+  flex-direction: column;
+  flex-grow:;
+  flex-wrap: nowrap;
+  /* gap: 1px; */
+  /* flex-basis: var(--numwiditem); */
+}
+.kp2 {
+  border: 10px solid red;
+  display: flex;
+  justify-content: ;
+  width: min-content;
+  flex-direction: row;
+  flex-grow:;
+  flex-wrap: nowrap;
+  /* gap: 1px; */
+  /* flex-basis: var(--numwiditem); */
+}
+.out{
+  color: antiquewhite;
+  font-size: 5rem;
+  background-color: #3498db;
+  min-height: 14vh;
+  width: 100vw;
+  flex-grow: 1;
+  /* align-self: center; */
+  /* justify-self: center; */
+}
