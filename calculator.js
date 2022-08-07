@@ -1,9 +1,9 @@
 const pusher = (inp) => {
     // document.getElementsById("output").innerHTML= "A";
-    // if (inp === "/" || inp === "*" || inp === "-" || inp === "+"  ) {
-    //     console.log("object");
-    //     equal()
-    // }
+    if (inp === "/" || inp === "*" || inp === "-" || inp === "+"  ) {
+        console.log("object");
+        equal()
+    }
      const asad = document.getElementById("output").innerText;
      console.log(asad);
      const res = asad+inp 
@@ -16,9 +16,14 @@ var cleaner= ()=>{
     
 }
 var equal = () => {
-    const asad = document.getElementById("output").innerText;
-    console.log(asad);
-    var res = eval(asad);
-    document.getElementById("output").innerHTML = res;
+    try {
+        const asad = document.getElementById("output").innerText;
+        console.log(asad);
+        var res = eval(asad);
+        document.getElementById("output").innerHTML = res;    
+    } catch (error) {
+        alert("add some value after aurthmatic operator")
+    }
+    
     // cleaner();
 }
