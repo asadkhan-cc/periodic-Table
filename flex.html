@@ -11,33 +11,35 @@
   <script src="calculator.js"></script>
   <body>
     <div class="kp1">
-      <div class="out"></div>
+      <div id="output" class="out"></div>
       
     <div class="kp2" >
       <div class="kp1">
         <div class="container">
-          <div class="clear">clear</div>
+          <div class="clear" onclick="cleaner()">CLEAR</div>
         </div>
         <div class="container">
-          <div class="b0">0</div>
-          <div class="b1">1</div>
-          <div class="b2">2</div>
-          <div class="b3">3</div>
-          <div class="b4">4</div>
-          <div class="b5">5</div>
-          <div class="b6">6</div>
-          <div class="b7">7</div>
-          <div class="b8">8</div>
-          <div class="b9">9</div>
+          <div class="b0" onclick="pusher('.')">.</div>
+          <div class="b0" onclick="pusher(0)">0</div>
+          <div class="b0" onclick="pusher('e')">e</div>
+          <div class="b1" onclick="pusher(1)">1</div>
+          <div class="b2" onclick="pusher(2)">2</div>
+          <div class="b3" onclick="pusher(3)">3</div>
+          <div class="b4" onclick="pusher(4)">4</div>
+          <div class="b5" onclick="pusher(5)">5</div>
+          <div class="b6" onclick="pusher(6)">6</div>
+          <div class="b7" onclick="pusher(7)">7</div>
+          <div class="b8" onclick="pusher(8)">8</div>
+          <div class="b9" onclick="pusher(9)">9</div>
         </div>
       </div>
       <div class="kp1">
-        <div class="b1">*</div>
-        <div class="b2">/</div>
-        <div class="b3">-</div>
-        <div class="b4">+</div>
-        <div class="b0" onclick="pusher()">=</div></div>
+        <div class="b1" onclick="pusher('*')">*</div>
+        <div class="b2" onclick="pusher('/')">/</div>
+        <div class="b3" onclick="pusher('-')">-</div>
+        <div class="b4" onclick="pusher('+')">+</div>
+        <div class="b0" onclick="equal()">=</div></div>
     </div>
   </div>
   </body>
-</html>s
+</html>

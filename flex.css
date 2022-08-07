@@ -1,5 +1,5 @@
 :root {
-  --numwid: 76vw;
+  --numwid: 74vw;
   --numwiditem: calc(70vw / 3);
 }
 
@@ -16,7 +16,7 @@
 }
 [class^="b"] {
   /* width:  */
-  width: 24vw;
+  width: 22vw;
   flex-grow: 1;
   flex-shrink: 1;
   min-height: 14vh;
@@ -68,11 +68,13 @@ By default order starts from 0 */
 }
 .out{
   color: antiquewhite;
+  border: 10px solid black;
   font-size: 5rem;
   background-color: #3498db;
   min-height: 14vh;
-  width: 100vw;
+  width: 97vw;
   flex-grow: 1;
-  /* align-self: center; */
+
+  align-self: center;
   /* justify-self: center; */
 }
